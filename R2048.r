@@ -1,6 +1,6 @@
 start_2048 <- function() {
 
-	source("2048_functions.r")
+	source("R2048_functions.r")
 	
 	initialize()
 	plot_Grid2048()
