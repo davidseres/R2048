@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="R2048 : This is an R version of the 2048 game" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>R2048</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/davidseres/R2048">View on GitHub</a>
+
+          <h1 id="project_title">R2048</h1>
+          <h2 id="project_tagline">This is an R version of the 2048 game</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/davidseres/R2048/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/davidseres/R2048/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="r2048" class="anchor" href="#r2048"><span class="octicon octicon-link"></span></a>R2048.</h3>
+
+<p>I've programmed (a non-fancy version of) the famous 2048 game in R. 
+The original can be found <a href="http://gabrielecirulli.github.io/2048/">here</a>. To start the game, just issue the following commands in an R session:</p>
+
+<pre><code>source("R2048.R")
+start_2048()
+</code></pre>
+
+<p>This will initialize the game in R. You will see the grid in a plot window. Upon the call the user will be prompted for input.</p>
+
+<h3>
+<a name="how-to-play" class="anchor" href="#how-to-play"><span class="octicon octicon-link"></span></a>How to play</h3>
+
+<p>Use the keys w (up), a (left), s (down) and d (right) followed by enter to move the tiles in the desired direction. The rules are to merge two identical numbers into one with the sum of the two merged numbers.</p>
+
+<h3>
+<a name="remarks" class="anchor" href="#remarks"><span class="octicon octicon-link"></span></a>Remarks</h3>
+
+<p>This program was written using the 64-bit version of R 3.0.2.</p>
+
+<h3>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h3>
+
+<p>2014, David Seres (<a href="https://github.com/davidseres" class="user-mention">@davidseres</a>)</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">R2048 maintained by <a href="https://github.com/davidseres">davidseres</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
